@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/l1"
+
+    tools:context=".mgvcl10">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/i29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="38dp"
+            android:text=" 30.શું આપ સહમત થયો કે સરકાર ની ખેતીવિષયક યોજના થી ગામડાઓ ને  ઘણો જ લાભ થયો છે અને તેના થકી ઘણી સમસ્યાઓ નું નિરાકરણ થયું છે. "
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/i29"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:layout_marginTop="27dp"
+            android:id="@+id/arg32"
+            android:layout_marginBottom="5dp"
+
+            >
+
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ભાર પૂર્વક અસહમત "
+                android:id="@+id/arb91"
+                android:layout_marginLeft="30dp"
+
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb92"
+                android:layout_marginLeft="30dp"
+                android:text=" અસહમત "
+                android:buttonTint="@color/colorPrimary"
+
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb93"
+                android:layout_marginLeft="30dp"
+                android:text=" ન સહમત ,ન અસહમત સહમત "
+                android:buttonTint="@color/colorPrimary"
+
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb94"
+                android:layout_marginLeft="30dp"
+                android:text=" સહમત "
+                android:buttonTint="@color/colorPrimary"
+
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb95"
+                android:layout_marginLeft="30dp"
+                android:text=" ભાર પૂર્વક સહમત "
+                android:buttonTint="@color/colorPrimary"
+
+
+                />
+
+
+
+        </RadioGroup>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text=" 31.જો આપની ઈચ્છા હોઈ કે અમે આપની કોઈ વિશિષ્ટ નોધ / ટીપ્પણી  કંપની ને જણાવીએ તો કૃપયા આવી નોધોને નીચે આપેલ ખાલી જગ્યા માં લખો "
+            android:id="@+id/i30"
+            android:layout_below="@id/arg32"
+            android:layout_marginTop="25dp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            />
+
+        <EditText
+            android:id="@+id/ata1"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_below="@+id/i30"
+            android:layout_marginTop="19dp"
+            android:background="@drawable/shape"
+            android:gravity="top|left"
+            android:inputType="textMultiLine"
+            android:lines="7"
+            android:scrollbars="vertical"
+            android:scrollHorizontally="false"
+
+            android:textColor="#000" />
+
+
+
+        <Button
+            android:id="@+id/ab10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="41dp"
+            android:layout_below="@+id/ata1"
+            android:background="@drawable/shape"
+
+            android:text="@string/previous"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/ac10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/ata1"
+            android:layout_marginTop="41dp"
+
+
+            android:layout_toRightOf="@id/ab10"
+            android:background="@drawable/shape"
+
+            android:text="@string/next"
+            android:textColor="#000" />
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

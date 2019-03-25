@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+android:id="@+id/l1"
+    tools:context=".mgvcl9">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:text="28.શું તમને એવું લાગે છે કે છેલ્લા એક વર્ષમાં ,વીજ પુરવઠો અને તેને લગતી સેવાઓ માં સુધારો આવ્યો છે ખરો? "
+            android:id="@+id/i27"
+            android:layout_marginTop="39dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/i27"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:layout_marginTop="23dp"
+            android:id="@+id/arg30"
+            android:layout_marginBottom="5dp"
+
+            >
+
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" અતિશય બગડી છે "
+                android:id="@+id/arb81"
+                android:layout_marginLeft="30dp"
+
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb82"
+                android:layout_marginLeft="30dp"
+                android:text=" કૈક અંશે બગડી છે "
+                android:buttonTint="@color/colorPrimary"
+
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb83"
+                android:layout_marginLeft="30dp"
+                android:text=" ન તો બગડી છે,ન તો સુધરી છે "
+                android:buttonTint="@color/colorPrimary"
+
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb84"
+                android:layout_marginLeft="30dp"
+                android:text=" વ્યાજબી સુધારો છે "
+                android:buttonTint="@color/colorPrimary"
+
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb85"
+                android:layout_marginLeft="30dp"
+                android:text=" અત્યત સુધારો છે "
+                android:buttonTint="@color/colorPrimary"
+
+
+                />
+
+
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text=" 29.સમગ્રપણે જોતા ,કંપની  ની વીજ પુરવઠા બાબતે કેટલા સંતુષ્ટ છો ? "
+            android:id="@+id/i28"
+            android:layout_below="@id/arg30"
+            android:layout_marginTop="25dp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/i28"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:layout_marginTop="20dp"
+            android:id="@+id/arg31"
+            android:layout_marginBottom="5dp"
+
+            >
+
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" અતિ અસંતુષ્ટ (અપેક્ષા કરતા ખુબજ ઓંછુ ) "
+                android:id="@+id/arb86"
+                android:layout_marginLeft="30dp"
+
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb87"
+                android:layout_marginLeft="30dp"
+                android:text=" અસંતુષ્ટ (અપેક્ષા કરતા ઓછુ ) "
+                android:buttonTint="@color/colorPrimary"
+
+                />
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" સંતુષ્ટ (અપેક્ષા મુજબ) "
+                android:id="@+id/arb88"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ખુબ સંતુષ્ટ (અપેક્ષા વધુ) "
+                android:id="@+id/arb89"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" અતિ સંતુષ્ટ (અપેક્ષા ખુબજ વઘુ) "
+                android:id="@+id/arb90"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/ab9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/arg31"
+            android:background="@drawable/shape"
+            android:hint="countinue"
+            android:text="@string/previous"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/ac9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/arg31"
+            android:layout_marginTop="50dp"
+
+
+            android:layout_toRightOf="@id/ab9"
+            android:background="@drawable/shape"
+            android:hint="countinue"
+            android:text="@string/next"
+            android:textColor="#000" />
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

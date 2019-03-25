@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_list"
+    android:layout_height="match_parent"
+    android:id="@+id/l1"
+    android:orientation="horizontal"
+    tools:context=".page7">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15. અગાઉ થી જાહેરાત કર્યા વિના નો વીજ કાપ આપને કેટલો ગંભીર પુરવાર થાય છે. ? "
+        android:id="@+id/r15tv"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:id="@+id/r15rg"
+        android:layout_marginBottom="5dp"
+
+        >
+
+        <RadioButton
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="અતિ ગંભીર "
+            android:id="@+id/r15rb1"
+            android:layout_marginLeft="30dp"
+
+            android:buttonTint="@color/colorPrimary"
+
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:layout_marginLeft="30dp"
+            android:text="સાધારણ ગંભીર "
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/r15rb2"
+
+            />
+        <RadioButton
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="અડચણ રૂપ "
+            android:id="@+id/r15rb3"
+            android:layout_marginLeft="30dp"
+            android:buttonTint="@color/colorPrimary"
+
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:layout_marginLeft="30dp"
+            android:text=" મામુલી  "
+            android:id="@+id/r15rb4"
+
+            android:buttonTint="@color/colorPrimary"
+            />
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="16. વીજ પ્રવાહ ને ચાલુ રાખવા માટે શું આપની પાસે કોઈ બીજી વૈકલ્પિક વ્યવસ્થા છે ? જેવી કે વીજ / ડીઝલ જનરેટર (DG)/ UPS / ઇન્વર્ટર( invertor ), વગેરે "
+        android:id="@+id/r16tv"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:id="@+id/r16rg"
+        android:layout_marginBottom="5dp"
+
+        >
+
+    <RadioButton
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="આવી વ્યવસ્થા છે  "
+        android:id="@+id/r16rb1"
+        android:layout_marginLeft="30dp"
+
+        android:buttonTint="@color/colorPrimary"
+
+        />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="#000000"
+        android:layout_marginLeft="30dp"
+        android:text="આવી વ્યવસ્થા વગેર ચલાવી શકીએ છીએ "
+        android:buttonTint="@color/colorPrimary"
+        android:id="@+id/r16rb2"
+
+        />
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17. કંપની દ્વારા  અપાતા વીજ પુરવઠાની ગુણવતા  વિષે આપ કેટલા  સંતુષ્ટ છો ? "
+        android:id="@+id/r17tv"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:id="@+id/r17rg"
+        android:layout_marginBottom="5dp"
+
+        >
+
+        <RadioButton
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="અતિ અસંતુષ્ટ (અપેક્ષા કરતા ખુબજ ઓંછુ )"
+            android:id="@+id/r17rb1"
+            android:layout_marginLeft="30dp"
+
+            android:buttonTint="@color/colorPrimary"
+
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:layout_marginLeft="30dp"
+            android:text="અસંતુષ્ટ (અપેક્ષા કરતા ઓંછુ ) "
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/r17rb2"
+
+            />
+        <RadioButton
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="સંતુષ્ટ (અપેક્ષા મુજબ) "
+            android:id="@+id/r17rb3"
+            android:layout_marginLeft="30dp"
+            android:buttonTint="@color/colorPrimary"
+
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:layout_marginLeft="30dp"
+            android:text="ખુબ સંતુષ્ટ (અપેક્ષા વધુ ) "
+            android:id="@+id/r17rb4"
+
+            android:buttonTint="@color/colorPrimary"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginLeft="30dp"
+            android:text="અતિ સંતુષ્ટ (અપેક્ષા ખુબજ વધુ)"
+            android:id="@+id/r17rb5"
+
+            android:buttonTint="@color/colorPrimary"
+            />
+    </RadioGroup>
+    <Button
+        android:id="@+id/rB13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:text="@string/previous"
+        android:textColor="#151719"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        />
+    <Button
+        android:id="@+id/rB14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:text="@string/next"
+        android:layout_marginBottom="100dp"
+        android:textColor="#151719"
+        android:layout_marginTop="-150dp"
+        android:layout_marginLeft="230dp"/>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

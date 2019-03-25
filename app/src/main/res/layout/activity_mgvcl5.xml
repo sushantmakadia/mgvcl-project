@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/l1"
+
+    tools:context=".mgvcl5">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/i16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="21dp"
+            android:text=" 16.છેલ્લા ત્રણ માસ માં આપ કેટલીવાર પૂર્વ જાહેરાત વગર નો /કસમય નો વિદ્યુત કાપ અનુભવ્યો છે ? "
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/i16"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:layout_marginTop="12dp"
+            android:id="@+id/arg18"
+            android:layout_marginBottom="5dp"
+
+            >
+
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" એક પણ વાર નહિ "
+                android:id="@+id/arb38"
+                android:layout_marginLeft="30dp"
+
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb39"
+                android:layout_marginLeft="30dp"
+                android:text=" નહીવત "
+                android:buttonTint="@color/colorPrimary"
+
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb40"
+                android:layout_marginLeft="30dp"
+                android:text=" કોઈકવાર "
+                android:buttonTint="@color/colorPrimary"
+
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb41"
+                android:layout_marginLeft="30dp"
+                android:text="  વારંવાર "
+                android:buttonTint="@color/colorPrimary"
+
+
+                />
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="gender"
+            android:text=" 17.અગાઉ થી જાહેરાત કાર્ય વિના નો વીજ કાપ આપને કેટલો ગંભીર પુરવાર થાય છે "
+            android:id="@+id/i17"
+            android:layout_below="@id/arg18"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/i17"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:layout_marginTop="11dp"
+            android:id="@+id/arg19"
+            android:layout_marginBottom="5dp"
+
+            >
+
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" અતિ ગંભીર "
+                android:id="@+id/arb42"
+                android:layout_marginLeft="30dp"
+
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb43"
+                android:layout_marginLeft="30dp"
+                android:text=" સાધારણ ગંભીર "
+                android:buttonTint="@color/colorPrimary"
+
+                />
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" અડચણરૂપ "
+                android:id="@+id/arb44"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb45"
+                android:layout_marginLeft="30dp"
+                android:text=" મામુલી "
+
+                android:buttonTint="@color/colorPrimary"
+                />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 18.વિજ પ્રવાહને ચાલુ રાખવા માટે શું આપની પાસે કોઈ બીજી વૈકલ્પિક વ્યવસ્થા છે જેવી કે વીજ/ડીઝલ જનરેટર/ યુપીએસ/ ઇનવર્ટર વગેરે ? "
+            android:id="@+id/i171"
+            android:layout_below="@id/arg19"
+            android:layout_marginTop="14dp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/i171"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:layout_marginTop="12dp"
+            android:id="@+id/arg20"
+            android:layout_marginBottom="5dp"
+
+            >
+
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" આવી વ્યવસ્થા છે "
+                android:id="@+id/arb46"
+                android:layout_marginLeft="30dp"
+
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb47"
+                android:layout_marginLeft="30dp"
+                android:text=" આવી વ્યવસ્થાલ્પ્ ગેર ચલાવી શકીએ છીએ "
+                android:buttonTint="@color/colorPrimary"
+
+                />
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" આવી વ્યવસ્થા વગેર યલાવવું પડે છે "
+                android:id="@+id/arb48"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/ab5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/arg20"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shape"
+            android:hint="countinue"
+            android:text="@string/previous"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/ac5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@id/arg20"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/ab5"
+            android:background="@drawable/shape"
+            android:hint="countinue"
+            android:text="@string/next"
+            android:textColor="#000" />
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

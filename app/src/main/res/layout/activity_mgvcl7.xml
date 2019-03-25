@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/l1"
+
+    tools:context=".mgvcl7">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/i21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:text=" 22.શું આપે છેલ્લા ત્રણ માસ માં કોઈ પણ પ્રકાર ની ફરિયાદ નોંધાવી છે . આપની ફરિયાદ નોધવવાની જુદી-જુદી સૂવીધાઓ ઊપલબ્ધ છે જેમકે ટોલ ફ્રી નંબર, consumer પોર્ટલ. ગુગલ એપ, sms, ફોલ્ટ સેન્ટર, રૂબરૂ.
+
+ "
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/i21"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:layout_marginTop="8dp"
+            android:id="@+id/arg24"
+            android:layout_marginBottom="5dp"
+
+            >
+
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" એક પણ વાર નહિ "
+                android:id="@+id/arb60"
+                android:layout_marginLeft="30dp"
+
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb61"
+                android:layout_marginLeft="30dp"
+                android:text=" એક થી પાંચ વાર "
+                android:buttonTint="@color/colorPrimary"
+
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb62"
+                android:layout_marginLeft="30dp"
+                android:text=" પાંચ થી વધુ વાર "
+                android:buttonTint="@color/colorPrimary"
+
+
+                />
+
+
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="gender"
+            android:text=" 23.શું આપે છેલ્લા ત્રણ માસ માં કોઈ પણ પ્રકાર ની ફરિયાદ નોંધાવી છે  "
+            android:id="@+id/i22"
+            android:layout_below="@id/arg24"
+            android:layout_marginTop="5dp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/i22"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:layout_marginTop="10dp"
+            android:id="@+id/arg25"
+            android:layout_marginBottom="5dp"
+
+            >
+
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" એક પણ વાર નહિ "
+                android:id="@+id/arb63"
+                android:layout_marginLeft="30dp"
+
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb64"
+                android:layout_marginLeft="30dp"
+                android:text=" એક થી પાંચ વાર "
+                android:buttonTint="@color/colorPrimary"
+
+                />
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" પાંચ થી વધુ વાર "
+                android:id="@+id/arb65"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/i23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/arg25"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:hint="gender"
+            android:text=" 24.આપ શ્રી ની ફરિયાદો પર કંપની ના પ્રતિસાદ(રિસ્પોન્સીવ નેસ) બાબતે આપ કેટલા સંતુષ્ટ છો "
+            android:textColor="#000"
+            android:textSize="15dp"></TextView>
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/i23"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:layout_marginTop="12dp"
+            android:id="@+id/arg26"
+            android:layout_marginBottom="5dp"
+
+            >
+
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" અતિ અસંતુષ્ટ (અપેક્ષા કરતા ખુબજ ઓંછુ)  "
+                android:id="@+id/arb66"
+                android:layout_marginLeft="30dp"
+
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+
+
+                android:id="@+id/arb67"
+                android:layout_marginLeft="30dp"
+                android:text=" અસંતુષ્ટ (અપેક્ષા કરતા ઓંછુ) "
+                android:buttonTint="@color/colorPrimary"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+
+
+                android:id="@+id/arb68"
+                android:layout_marginLeft="30dp"
+                android:text=" સંતુષ્ટ (અપેક્ષા મુજબ) "
+                android:buttonTint="@color/colorPrimary"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+
+
+                android:id="@+id/arb69"
+                android:layout_marginLeft="30dp"
+                android:text=" ખુબ સંતુષ્ટ (અપેક્ષા વધુ ) "
+                android:buttonTint="@color/colorPrimary"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+
+
+                android:id="@+id/arb70"
+                android:layout_marginLeft="30dp"
+                android:text=" અતિ સંતુષ્ટ (અપેક્ષા ખુબજ વધુ) "
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+        </RadioGroup>
+
+
+
+
+        <Button
+            android:id="@+id/ab7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/arg26"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shape"
+            android:hint="countinue"
+            android:text="@string/previous"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/ac7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@id/arg26"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/ab7"
+            android:background="@drawable/shape"
+            android:hint="countinue"
+            android:text="@string/next"
+            android:textColor="#000" />
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/l1"
+
+    tools:context=".mgvcl3">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/i8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:text=" 8.શું વીજ કંપની દ્વારા નક્કી થયેલ સમય પત્રક પ્રમાણે વીજ પુરવઠો આપે છે ? "
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+
+        <RadioGroup
+            android:id="@+id/arg10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/i8"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape"
+            android:orientation="horizontal"
+
+            >
+
+            <RadioButton
+                android:id="@+id/arb17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/i8"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+                android:text=" હા "
+                android:textColor="#000000"
+
+                />
+
+            <RadioButton
+                android:id="@+id/arb18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/i8"
+                android:layout_marginLeft="170dp"
+                android:layout_toRightOf="@id/arb17"
+                android:buttonTint="@color/colorPrimary"
+                android:text=" ના "
+                android:textColor="#000000"
+
+
+                />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/i9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/arg10"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text=" 9.આપ જયારે કંપનીને ફરિયાદ નોધાવા માટે કંપની ને ફોન કર્યો ત્યારે કયારે પણ આપને વ્યસ્ત સ્વર (એંગજટોન) સામનો કરવો પડયો છે ? "
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+        <RadioGroup
+            android:id="@+id/arg11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/i9"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape"
+            android:orientation="horizontal"
+
+            >
+
+            <RadioButton
+                android:id="@+id/arb19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/i9"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+                android:text=" હા "
+                android:textColor="#000000"
+
+                />
+
+            <RadioButton
+                android:id="@+id/arb20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/i9"
+                android:layout_marginLeft="170dp"
+                android:layout_toRightOf="@id/arb19"
+                android:buttonTint="@color/colorPrimary"
+                android:text=" ના "
+                android:textColor="#000000"
+
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/i10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/arg11"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text=" 10.ફરિયાદો ની નોધણી માટેનો સ્ટાફ કાર્યક્ષમ અને વિવેકી છે  "
+            android:textColor="#000"
+            android:textSize="15dp">
+
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/arg12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/i10"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape"
+            android:orientation="horizontal"
+
+            >
+
+            <RadioButton
+                android:id="@+id/arb21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/i10"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+                android:text=" હા "
+                android:textColor="#000000"
+
+                />
+
+            <RadioButton
+                android:id="@+id/arb22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/i10"
+                android:layout_marginLeft="170dp"
+                android:layout_toRightOf="@id/arb21"
+                android:buttonTint="@color/colorPrimary"
+                android:text=" ના "
+                android:textColor="#000000"
+
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/i11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/arg12"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text=" 11.તાકીદ નીં ફરિયાદો પર ત્વરિત ધ્યાન અપાય છે કે કેમ?   "
+            android:textColor="#000"
+            android:textSize="15dp">
+
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/arg13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/i11"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape"
+            android:orientation="horizontal"
+
+            >
+
+            <RadioButton
+                android:id="@+id/arb23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/i10"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+                android:text=" હા "
+                android:textColor="#000000"
+
+                />
+
+            <RadioButton
+                android:id="@+id/arb24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/i10"
+                android:layout_marginLeft="170dp"
+                android:layout_toRightOf="@id/arb23"
+                android:buttonTint="@color/colorPrimary"
+                android:text=" ના "
+                android:textColor="#000000"
+
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/i12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/arg13"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text=" 12.જો ક્ષતીયો નું સમારકામ કરી છે તે ફરીથી ટુકા ગાળા માં પરાવર્તિત થતી નથી "
+            android:textColor="#000"
+            android:textSize="15dp">
+
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/arg14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/i12"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape"
+            android:orientation="horizontal"
+
+            >
+
+            <RadioButton
+                android:id="@+id/arb25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/i10"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+                android:text=" હા "
+                android:textColor="#000000"
+
+                />
+
+            <RadioButton
+                android:id="@+id/arb26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/i10"
+                android:layout_marginLeft="170dp"
+                android:layout_toRightOf="@id/arb23"
+                android:buttonTint="@color/colorPrimary"
+                android:text=" ના "
+                android:textColor="#000000"
+
+                />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/ab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/arg14"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shape"
+            android:text="@string/previous"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/ac3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/arg14"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/ab3"
+            android:background="@drawable/shape"
+            android:hint="countinue"
+            android:text="@string/next"
+            android:textColor="#000" />
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/l1"
+
+    tools:context=".mgvcl8">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:text="25.છેલ્લા ત્રણ માસમાં આપે કેટલી વાર કંપની ના સ્ટાફ સાથે વ્યવહાર કર્યો છે ? "
+            android:id="@+id/i24"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/i24"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:layout_marginTop="15dp"
+            android:id="@+id/arg27"
+            android:layout_marginBottom="5dp"
+
+            >
+
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" એક પણ વાર નહિ "
+                android:id="@+id/arb71"
+                android:layout_marginLeft="30dp"
+
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb72"
+                android:layout_marginLeft="30dp"
+                android:text=" એક થી પાંચ વાર "
+                android:buttonTint="@color/colorPrimary"
+
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb73"
+                android:layout_marginLeft="30dp"
+                android:text=" પાંચ થી વધુ વાર "
+                android:buttonTint="@color/colorPrimary"
+
+
+                />
+
+
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text=" 26.શું આપ સહમત કે છો  કંપની નો સ્ટાફ વિવેકી ગ્રાહકલક્ષી અને કાર્યક્ષમ છે? "
+            android:id="@+id/i25"
+            android:layout_below="@id/arg27"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/i25"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:layout_marginTop="15dp"
+            android:id="@+id/arg28"
+            android:layout_marginBottom="5dp"
+
+            >
+
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ભાર પૂર્વક અસહમત "
+                android:id="@+id/arb74"
+                android:layout_marginLeft="30dp"
+
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb75"
+                android:layout_marginLeft="30dp"
+                android:text=" અસહમત "
+                android:buttonTint="@color/colorPrimary"
+
+                />
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ન સહમત ,ન અસહમત "
+                android:id="@+id/arb76"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" સહમત "
+                android:id="@+id/arb77"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ભાર પૂર્વક સહમત "
+                android:id="@+id/arb78"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text=" 27.કંપની દ્વારા પૂરી પાડવામાં આવતી વિદ્યુત શક્તિ અને સેવાઓ ને ઘ્યાન માં લેતા આપ કંપની દ્વારા લેવામાં આવતી કીમત વિષે શું માનો છો? "
+            android:id="@+id/i26"
+            android:layout_below="@id/arg28"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/i26"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:layout_marginTop="15dp"
+            android:id="@+id/arg29"
+            android:layout_marginBottom="5dp"
+
+            >
+
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" મોંઘી  "
+                android:id="@+id/arb79"
+                android:layout_marginLeft="30dp"
+
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+
+                android:id="@+id/arb80"
+                android:layout_marginLeft="30dp"
+                android:text=" વ્યાજબી "
+                android:buttonTint="@color/colorPrimary"
+
+                />
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" સસ્તી "
+                android:id="@+id/arb81"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary">
+
+            </RadioButton>
+
+
+
+
+
+        </RadioGroup>
+
+
+
+
+        <Button
+            android:id="@+id/ab8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/arg29"
+            android:background="@drawable/shape"
+            android:hint="countinue"
+            android:text="@string/previous"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/ac8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/arg29"
+            android:layout_marginTop="50dp"
+
+            android:layout_toRightOf="@id/ab8"
+            android:background="@drawable/shape"
+            android:hint="countinue"
+            android:text="@string/next"
+            android:textColor="#000" />
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

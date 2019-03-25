@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/l1"
+
+    tools:context=".mgvcl1">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/i1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="41dp"
+            android:text=" 1.શુ આપ એક પણ કુવા/ બોરવેલ ના માલિક છો કે જેનુ પાણી ઇલેક્ટ્રિક પમ્પ વડે ર્સિયાઈમાં ઉપયોગ કરાય છે"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/i1"
+            android:orientation="horizontal"
+            android:background="@drawable/shape"
+            android:layout_marginTop="15dp"
+            android:id="@+id/arg1"
+            android:layout_marginBottom="5dp"
+
+            >
+
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" હા "
+                android:id="@+id/arb1"
+                android:layout_marginLeft="30dp"
+                android:layout_below="@id/i1"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:id="@+id/arb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/i1"
+                android:layout_marginLeft="170dp"
+                android:layout_toRightOf="@id/arb1"
+                android:buttonTint="@color/colorPrimary"
+                android:text=" ના "
+
+
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/i2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/arg1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:text=" 2.આપનુ ખેતીવિષયક વિજ જોડાણનુ માસિક વીજ બીલ સરેરાશ કેટલું  આવે છે? "
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/aedit1"
+            android:layout_width="350dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/i2"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape"
+
+            android:hint="૱"
+            android:inputType="numberDecimal"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/i3"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aedit1"
+            android:layout_marginTop="10dp"
+            android:text=" 3.આપના વીજ પ્રસ્થાપન પર યોગ્ય ક્ષમતા ના કેપેસીટર બેસાડેલ છે કે કેમ ? "
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/i3"
+        android:orientation="horizontal"
+        android:background="@drawable/shape"
+        android:layout_marginTop="20dp"
+        android:id="@+id/arg2"
+        android:layout_marginBottom="5dp"
+
+        >
+
+    <RadioButton
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" હા "
+        android:id="@+id/arb3"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/i2"
+        android:buttonTint="@color/colorPrimary"
+
+        />
+
+    <RadioButton
+        android:id="@+id/arb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/i2"
+        android:layout_marginLeft="170dp"
+        android:layout_toRightOf="@id/arb3"
+        android:buttonTint="@color/colorPrimary"
+        android:text=" ના "
+        android:textColor="#000000">
+
+    </RadioButton>
+
+    </RadioGroup>
+
+
+
+
+
+        <TextView
+            android:id="@+id/i4"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_below="@+id/arg2"
+            android:layout_marginTop="19dp"
+            android:text=" 4.આપનું ખેતીવિષયક વિજ જોડાણનું વીજ બીલ ક્યાં  આધારે મળે છે ? "
+            android:textColor="#000"
+            android:textSize="15sp" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/i4"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:layout_marginTop="20dp"
+            android:id="@+id/aarg2"
+            android:layout_marginBottom="5dp"
+
+            >
+
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" મીટર માં બતાવેલ યુનિટ ના  આધારે "
+                android:id="@+id/aarb3"
+                android:layout_marginLeft="30dp"
+
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:id="@+id/aarb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/i2"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@id/arb3"
+                android:buttonTint="@color/colorPrimary"
+                android:text=" મોટર ની સ્થાપિત ક્ષમતા ની (એચપી) ના આધારે "
+                android:textColor="#000000">
+
+            </RadioButton>
+
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/i5"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_below="@+id/aarg2"
+            android:layout_marginTop="20dp"
+            android:text=" 5.શું કોઈ વખતે ખેતીવિષયક નવા જોડાણ માટે અથવા અતિરિક્ત વીજ દબાણ (લોડ) મેળવવા અરજી કરી છે ? "
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/i5"
+            android:orientation="horizontal"
+            android:background="@drawable/shape"
+            android:layout_marginTop="23dp"
+            android:id="@+id/arg3"
+            android:layout_marginBottom="5dp"
+
+            >
+
+            <RadioButton
+                android:id="@+id/arb5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/i5"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+                android:text=" હા "
+                android:textColor="#000000"
+
+                />
+
+            <RadioButton
+                android:id="@+id/arb6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/i5"
+                android:layout_marginLeft="170dp"
+                android:layout_toRightOf="@id/arb3"
+                android:buttonTint="@color/colorPrimary"
+                android:text=" ના "
+                android:textColor="#000000">
+
+            </RadioButton>
+
+
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/ab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/arg3"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shape"
+
+            android:text="@string/previous"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/ac1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@id/arg3"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/ab1"
+            android:background="@drawable/shape"
+
+            android:text="@string/next"
+            android:textColor="#000"
+            android:textSize="15sp" />
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

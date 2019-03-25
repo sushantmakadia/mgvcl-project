@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sushant.parden">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MGVCL_CSS"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppTheme">
+        <activity android:name=".imgupload"/>
+        <activity android:name=".com_2"/>
+        <activity android:name=".com_1" />
+        <activity android:name=".com" />
+        <activity android:name=".com_17" />
+        <activity android:name=".com_16" />
+        <activity android:name=".com_15" />
+        <activity android:name=".com_14" />
+        <activity android:name=".com_13" />
+        <activity android:name=".com_12" />
+        <activity android:name=".com_11" />
+        <activity android:name=".com_10" />
+        <activity android:name=".com_9" />
+        <activity android:name=".com_8" />
+        <activity android:name=".com_7" />
+        <activity android:name=".com_6" />
+        <activity android:name=".com_5" />
+        <activity android:name=".com_4" />
+        <activity android:name=".com_3" />
+        <activity android:name=".mgvcl11" />
+        <activity android:name=".mgvcl10" />
+        <activity android:name=".mgvcl9" />
+        <activity android:name=".mgvcl8" />
+        <activity android:name=".mgvcl7" />
+        <activity android:name=".mgvcl6" />
+        <activity android:name=".mgvcl5" />
+        <activity android:name=".mgvcl4" />
+        <activity android:name=".mgvcl3" />
+        <activity android:name=".mgvcl2"/>
+        <activity android:name=".mgvcl12"/>
+        <activity android:name=".mgvcl1"/>
+        <activity android:name=".menu" />
+        <activity android:name=".urb18" />
+        <activity android:name=".urb17" />
+        <activity android:name=".urb16" />
+        <activity android:name=".urb15" />
+        <activity android:name=".urb14" />
+        <activity android:name=".urb13" />
+        <activity android:name=".urb12" />
+        <activity android:name=".urb11" />
+        <activity android:name=".urb10" />
+        <activity android:name=".urb9" />
+        <activity android:name=".urb8" />
+        <activity android:name=".urb7" />
+        <activity android:name=".urb6" />
+        <activity android:name=".urb5" />
+        <activity android:name=".urb4" />
+        <activity android:name=".urb3" />
+        <activity android:name=".urb2" />
+        <activity android:name=".urb1" />
+        <activity android:name=".page12" />
+        <activity android:name=".page11" />
+        <activity android:name=".page10" />
+        <activity android:name=".page9" />
+        <activity android:name=".page8" />
+        <activity android:name=".page7" />
+        <activity android:name=".page6" />
+        <activity android:name=".page5" />
+        <activity android:name=".page4" />
+        <activity android:name=".page3" />
+        <activity android:name=".page2" />
+        <activity android:name=".page1" />
+        <activity android:name=".syncActivity"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+
+</manifest>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/l1"
+    tools:context=".page12">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/r32tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:text="31. સમગ્રપણે જોતા ,કંપની ની વીજ પુરવઠા બાબતે કેટલા સંતુષ્ટ છો ? "
+
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:layout_marginTop="10dp"
+            android:id="@+id/r32rg"
+            android:layout_marginBottom="5dp"
+
+            >
+
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="અતિ અસંતુષ્ટ (અપેક્ષા કરતા ખુબજ ઓંછુ )"
+                android:id="@+id/r32rb1"
+                android:layout_marginLeft="30dp"
+
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+                android:layout_marginLeft="30dp"
+                android:text="અસંતુષ્ટ (અપેક્ષા કરતા ઓંછુ ) "
+                android:buttonTint="@color/colorPrimary"
+                android:id="@+id/r32rb2"
+
+                />
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="સંતુષ્ટ (અપેક્ષા મુજબ) "
+                android:id="@+id/r32rb3"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#000000"
+                android:layout_marginLeft="30dp"
+                android:text="ખુબ સંતુષ્ટ (અપેક્ષા વધુ ) "
+                android:id="@+id/r32rb4"
+
+                android:buttonTint="@color/colorPrimary"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginLeft="30dp"
+                android:text="અતિ સંતુષ્ટ (અપેક્ષા ખુબજ વધુ)"
+                android:id="@+id/r32rb5"
+
+                android:buttonTint="@color/colorPrimary"
+                />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/r33tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:text="32. જો આપની ઈચ્છા હોઈ કે અમે આપની કોઈ વિશિષ્ટ નોંધ / ટીપ્પણી કંપની ને જણાવીએ તો કૃપયા આવી નોધોને નીચે આપેલ ખાલી જગ્યા માં લખો "
+
+            />
+
+        <EditText
+            android:id="@+id/r33et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:ems="20"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/r34tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:text="33. ઉપરોક્ત તમામ સેવાઓ, સુવીધાઓ ને મૂલવીએ તો MGVCLને ૧૦ માંથી કેટલા ગુણ આપશો ?"
+            android:textSize="15dp" />
+        <RatingBar
+            android:id="@+id/r34et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/uq54"
+            android:layout_marginTop="20dp"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:numStars="10"
+            android:stepSize="1"
+            android:isIndicator="false" />
+        <Button
+            android:id="@+id/rB23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:text="submit"
+            android:textColor="#151719"
+            android:layout_marginTop="30dp"
+            />
+
+        <Button
+            android:id="@+id/rB24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:text="@string/previous"
+            android:textColor="#151719"
+            android:layout_marginTop="30dp"
+            />
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

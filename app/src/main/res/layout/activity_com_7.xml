@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/l1"
+
+    tools:context="com.example.sushant.parden.MainActivity">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <TextView
+            android:id="@+id/c20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/strc20"
+            android:textSize="15dp" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/c20"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:layout_marginTop="10dp"
+            android:id="@+id/rg20"
+            android:layout_marginBottom="5dp" >
+            <CheckBox
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a23m1"
+                android:id="@+id/a23rb1"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginLeft="30dp"
+                android:text="@string/a23m2"
+                android:id="@+id/a23rb2"
+                android:buttonTint="@color/colorPrimary"
+                />
+            <CheckBox
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a23m3"
+                android:id="@+id/a23rb3"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginLeft="30dp"
+                android:text="@string/a23m4"
+                android:id="@+id/a23rb4"
+                android:buttonTint="@color/colorPrimary"
+                />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/c21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/rg20"
+            android:text="@string/strc21"
+            android:textSize="15dp" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/c21"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:layout_marginTop="10dp"
+            android:id="@+id/rg21"
+            android:layout_marginBottom="5dp"
+
+            >
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stra21_1"
+                android:id="@+id/rb21_1"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:id="@+id/rb21_2"
+                android:layout_toRightOf="@id/rb4"
+                android:layout_marginLeft="30dp"
+                android:text="@string/stra21_2"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stra21_3"
+                android:id="@+id/rb21_3"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:id="@+id/rb21_4"
+                android:layout_marginLeft="30dp"
+                android:text="@string/stra21_4"
+
+                android:buttonTint="@color/colorPrimary"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb21_5"
+                android:textColor="#000000"
+                android:layout_marginLeft="30dp"
+                android:text="@string/stra21_5"
+
+                android:buttonTint="@color/colorPrimary"
+                />
+
+        </RadioGroup>
+        <TextView
+            android:id="@+id/c22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/rg21"
+            android:text="@string/strc22"
+            android:textSize="15dp" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/c22"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:layout_marginTop="10dp"
+            android:id="@+id/rg22"
+            android:layout_marginBottom="5dp"
+
+            >
+        <RadioButton
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stra22_1"
+            android:id="@+id/rb22_1"
+            android:layout_marginLeft="30dp"
+            android:buttonTint="@color/colorPrimary"
+
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:id="@+id/rb22_2"
+            android:layout_toRightOf="@id/rb4"
+            android:layout_marginLeft="30dp"
+            android:text="@string/stra22_2"
+            android:buttonTint="@color/colorPrimary"
+
+            />
+        <RadioButton
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stra22_3"
+            android:id="@+id/rb22_3"
+            android:layout_marginLeft="30dp"
+            android:buttonTint="@color/colorPrimary"
+
+            />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/c23"
+            android:layout_below="@id/rg22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/strc23"
+            android:textSize="15dp" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/c23"
+            android:orientation="horizontal"
+            android:background="@drawable/shape"
+            android:layout_marginTop="10dp"
+            android:id="@+id/rg23"
+            android:layout_marginBottom="5dp"
+
+            >
+
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ha"
+                android:id="@+id/rb23_1"
+
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb23_2"
+                android:textColor="#000000"
+                android:layout_toRightOf="@id/rb3"
+                android:layout_marginLeft="170dp"
+                android:text="@string/na"
+                android:buttonTint="@color/colorPrimary"
+                />
+        </RadioGroup>
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:hint="@string/previous"
+            android:layout_below="@id/rg23"
+            android:layout_marginBottom="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/b1"
+            android:id="@+id/b2"
+            android:background="@drawable/shape"
+            android:hint="@string/next"
+            android:layout_below="@id/rg23"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginLeft="100dp"/>
+
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

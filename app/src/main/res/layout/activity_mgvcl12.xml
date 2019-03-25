@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/l1"
+
+    tools:context=".mgvcl2">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/rel"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp">
+            <TextView
+                android:id="@+id/a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="ઉપભોક્તા  નામ:"
+                android:textColor="#000"
+                android:layout_marginLeft="0dp"
+                android:textSize="15dp" />
+            <EditText
+                android:id="@+id/aata3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/a"
+                android:background="@drawable/shape"
+                android:textColor="#000"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/aata3"
+                android:layout_marginTop="48dp"
+                android:text=" ફોન નં: "
+                android:textColor="#000"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/aata4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/b"
+                android:maxLength="10"
+                android:background="@drawable/shape"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/aata4"
+                android:layout_marginTop="48dp"
+                android:text=" ગામ: "
+                android:textColor="#000"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/aata5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/c"
+                android:background="@drawable/shape"
+                android:textColor="#000"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/aata5"
+                android:layout_marginTop="48dp"
+                android:text=" તાલુકો: "
+                android:textColor="#000"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/aata6"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/d"
+                android:background="@drawable/shape"
+                android:textColor="#000"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/aata6"
+                android:layout_marginTop="48dp"
+                android:text=" જિલ્લા : "
+                android:textColor="#000"
+                android:textSize="15dp" />
+            <EditText
+                android:id="@+id/aata7"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/e"
+                android:background="@drawable/shape"
+                android:textColor="#000"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/aata7"
+                android:layout_marginTop="48dp"
+                android:text=" ઘર માં રહેનાર વ્યક્તિ ની સંખ્યા: "
+                android:textColor="#000"
+                android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/aata8"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/f"
+                    android:background="@drawable/shape"
+                    android:inputType="number"
+                    android:textColor="#000"
+                    android:maxLength="2"
+                    android:textSize="15dp" />
+                <TextView
+                    android:id="@+id/g"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="48dp"
+                    android:layout_below="@+id/aata8"
+                    android:text=" ખેતી લાયક જમીન નો વિસ્તાર એકર મા:"
+                    android:textColor="#000"
+                    android:layout_marginLeft="0dp"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/aata9"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/g"
+                    android:background="@drawable/shape"
+                    android:inputType="number"
+                    android:textColor="#000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/aata9"
+                    android:layout_marginTop="48dp"
+                    android:text="બીલ ઉપર જોય ને એમ.જી.વી.સી.એલ કન્ઝ્યુમર નંબર લખવુ "
+                    android:textColor="#000"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/aata10"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/h"
+                    android:hint="enter 11 digit number"
+                    android:background="@drawable/shape"
+                    android:maxLength="11"
+                    android:inputType="number"
+                    android:textColor="#000"
+                    android:textSize="15dp" />
+                <TextView
+                    android:id="@+id/i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/aata10"
+                    android:layout_marginTop="48dp"
+                    android:text=" વીજ ભાર (માેટરની ક્ષમતા): "
+                    android:textColor="#000"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/aata11"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/i"
+                    android:inputType="number"
+                    android:hint="H.P."
+                    android:maxLength="5"
+                    android:background="@drawable/shape"
+                    android:textColor="#000"
+                    android:textSize="15dp" />
+                <Button
+                    android:id="@+id/aab11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="48dp"
+                    android:layout_below="@+id/aata11"
+                    android:background="@drawable/shape"
+                    android:textAlignment="center"
+                    android:text="@string/previous"
+                    android:textColor="#000" />
+
+                <Button
+                    android:id="@+id/aac11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:layout_below="@+id/aata11"
+                    android:textAlignment="center"
+                    android:layout_marginTop="48dp"
+                    android:layout_toRightOf="@id/aab11"
+                    android:background="@drawable/shape"
+                    android:text="@string/next"
+                    android:textColor="#000" />
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>

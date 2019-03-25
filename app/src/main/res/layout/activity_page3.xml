@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/l1"
+    tools:context=".page3">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="100dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/r5tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginTop="40dp"
+                android:text="5. આપે વીજ સલામતી માટે કોઈ પગલાં લીધેલ છે ? જેમ કે ELCB,વગેરે. "
+                android:textSize="15dp"
+
+                />
+
+
+            <RadioGroup
+                android:id="@+id/r5rg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/r5tv"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
+
+                >
+
+                <RadioButton
+                    android:id="@+id/r5rb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="હા"
+
+                    android:textColor="#000000"
+
+                    />
+
+                <RadioButton
+                    android:id="@+id/r5rb2"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="170dp"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text=" ના "
+                    android:textColor="#000000"
+
+
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/r6tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/r5rg"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:text="6. આપના દ્વારા બિન પરંપરાગત સ્ત્રોત  દ્વારા વીજ ઉત્પાદન કરવાના કોઈ સ્ત્રોત  અપનાવેલ છે.(દા.ત.સોલર)"
+                android:textSize="15dp" />
+
+
+            <RadioGroup
+                android:id="@+id/r6rg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/r6tv"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/shape"
+                android:orientation="horizontal"
+
+                >
+
+                <RadioButton
+                    android:id="@+id/r6rb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="હા"
+
+                    android:textColor="#000000"
+
+                    />
+
+                <RadioButton
+                    android:id="@+id/r6rb2"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="170dp"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text=" ના "
+                    android:textColor="#000000"
+
+
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/r7tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/r6rg"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:text="7. શું આપ સહમત થસો  કે જે માળખા પ્રમાણે અત્યારે બીલ બનાવવામાં  આવે છે તેનાથી બિલનો આખરી આંક કેવી રીતે ગણાય છે તે સહલાઇ થી સમજી શકાય છે ?"
+                android:textSize="15dp" />
+
+            <RadioGroup
+                android:id="@+id/r7rg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/r7tv"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical"
+
+                >
+
+                <RadioButton
+                    android:id="@+id/r7rb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="ભાર પૂર્વક અસહમત "
+
+                    android:textColor="#000000"
+
+                    />
+
+                <RadioButton
+                    android:id="@+id/r7rb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/r7rb1"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="અસહમત "
+                    android:textColor="#000000"
+
+                    />
+
+                <RadioButton
+                    android:id="@+id/r7rb3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="સહમત"
+                    android:textColor="#000000"
+
+                    />
+
+                <RadioButton
+                    android:id="@+id/r7rb4"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="ભાર પૂર્વક સહમત "
+
+                    android:textColor="#000000" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/rB5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/r7rg"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/shape"
+                android:text="@string/previous"
+                android:textColor="#151719" />
+
+            <Button
+                android:id="@+id/rB6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/r7rg"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="-50dp"
+                android:background="@drawable/shape"
+                android:text="@string/next"
+                android:textColor="#151719" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

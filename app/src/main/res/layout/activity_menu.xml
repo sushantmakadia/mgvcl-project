@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:orientation="horizontal"
+    android:id="@+id/l1"
+    tools:context="com.example.sushant.parden.menu">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/m1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/m1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/me1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/m1"
+                android:background="@drawable/shape"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/m2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/m2"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/me2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/m2"
+                android:background="@drawable/shape"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/m3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/m3"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/me3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/m3"
+                android:background="@drawable/shape"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/m4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/m4"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/me4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/m4"
+                android:background="@drawable/shape"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/m5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/m5"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/me5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/m5"
+                android:background="@drawable/shape"
+                android:inputType="number"
+                android:singleLine="true"
+                android:maxLength="2"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/m6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/m6"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/me6"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/m6"
+                android:maxLength="11"
+                android:hint="enter 11 digit number"
+                android:background="@drawable/shape"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/m7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/m7"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/me7"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/m7"
+                android:background="@drawable/shape"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/m8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/m8"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp" />
+
+            <CheckBox
+                android:id="@+id/mc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/m8"
+                android:background="@drawable/shape"
+                android:buttonTint="@color/colorPrimary"
+                android:text="@string/m8_1"
+                android:textColor="@color/colorPrimary" />
+
+            <CheckBox
+                android:id="@+id/mc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/m8"
+                android:background="@drawable/shape"
+                android:buttonTint="@color/colorPrimary"
+                android:text="@string/m8_2"
+                android:textColor="@color/colorPrimary" />
+
+            <CheckBox
+                android:id="@+id/mc3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/m8"
+                android:background="@drawable/shape"
+                android:buttonTint="@color/colorPrimary"
+                android:text="@string/m8_3"
+                android:textColor="@color/colorPrimary" />
+
+            <CheckBox
+                android:id="@+id/mc4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/m8"
+                android:background="@drawable/shape"
+                android:buttonTint="@color/colorPrimary"
+                android:text="@string/m8_4"
+                android:textColor="@color/colorPrimary" />
+
+            <CheckBox
+                android:id="@+id/mc5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/m8"
+                android:background="@drawable/shape"
+                android:buttonTint="@color/colorPrimary"
+                android:text="@string/m8_5"
+                android:textColor="@color/colorPrimary" />
+
+            <CheckBox
+                android:id="@+id/mc6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/m8"
+                android:background="@drawable/shape"
+                android:buttonTint="@color/colorPrimary"
+                android:text="@string/m8_6"
+                android:textColor="@color/colorPrimary" />
+
+            <CheckBox
+                android:id="@+id/mc7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/m8"
+                android:background="@drawable/shape"
+                android:buttonTint="@color/colorPrimary"
+                android:text="@string/m8_7"
+                android:textColor="@color/colorPrimary" />
+
+            <CheckBox
+                android:id="@+id/mc8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/m8"
+                android:background="@drawable/shape"
+                android:buttonTint="@color/colorPrimary"
+                android:text="@string/m8_8"
+                android:textColor="@color/colorPrimary" />
+
+            <CheckBox
+                android:id="@+id/mc9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/m8"
+                android:background="@drawable/shape"
+                android:buttonTint="@color/colorPrimary"
+                android:text="@string/m8_9"
+                android:textColor="@color/colorPrimary" />
+
+            <CheckBox
+                android:id="@+id/mc10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/m8"
+                android:background="@drawable/shape"
+                android:buttonTint="@color/colorPrimary"
+                android:text="@string/m8_10"
+                android:textColor="@color/colorPrimary" />
+
+            <CheckBox
+                android:id="@+id/mc11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/m8"
+                android:background="@drawable/shape"
+                android:buttonTint="@color/colorPrimary"
+                android:text="@string/m8_11"
+                android:textColor="@color/colorPrimary" />
+
+            <CheckBox
+                android:id="@+id/mc12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/m8"
+                android:background="@drawable/shape"
+                android:buttonTint="@color/colorPrimary"
+                android:text="@string/m8_12"
+                android:textColor="@color/colorPrimary" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="100dp">
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+
+            android:background="@drawable/shape"
+            android:text="@string/previous"
+            android:textColor="@color/colorPrimary" />
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:background="@drawable/shape"
+                android:text="@string/next"
+                android:textColor="@color/colorPrimary" />
+
+
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

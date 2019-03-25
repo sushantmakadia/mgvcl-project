@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/l1"
+    tools:context="com.example.sushant.parden.MainActivity">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+    <TextView
+        android:id="@+id/c16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/strc16"
+        android:textSize="15dp" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/c16"
+            android:orientation="horizontal"
+            android:background="@drawable/shape"
+            android:layout_marginTop="10dp"
+            android:id="@+id/rg16"
+            android:layout_marginBottom="5dp"
+
+            >
+
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ha"
+                android:id="@+id/rb16_1"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb16_2"
+                android:textColor="#000000"
+                android:layout_toRightOf="@id/rb3"
+                android:layout_marginLeft="170dp"
+                android:text="@string/na"
+                android:buttonTint="@color/colorPrimary"
+                />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/c17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="170dp"
+            android:text="@string/strc17"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/et17"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/shape"
+            android:singleLine="false"
+
+
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/c18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="280dp"
+            android:text="@string/strc18"
+            android:textSize="15dp" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/c18"
+            android:orientation="horizontal"
+            android:background="@drawable/shape"
+            android:layout_marginTop="10dp"
+            android:id="@+id/rg18"
+            android:layout_marginBottom="5dp"
+
+            >
+
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ha"
+                android:id="@+id/rb13_1"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb13_2"
+                android:textColor="#000000"
+                android:layout_toRightOf="@id/rb3"
+                android:layout_marginLeft="170dp"
+                android:text="@string/na"
+                android:buttonTint="@color/colorPrimary"
+                />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/c19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="400dp"
+            android:text="@string/strc19"
+            android:textSize="15dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="440dp"
+            android:background="@drawable/shape"
+            android:id="@+id/e19"
+            android:textColor="@color/colorPrimary"
+
+            android:textSize="15dp"
+        />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:layout_marginBottom="100dp"
+            android:hint="@string/previous"
+            android:layout_below="@id/e19"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/b1"
+            android:background="@drawable/shape"
+            android:layout_marginBottom="100dp"
+            android:hint="@string/next"
+            android:layout_below="@id/e19"
+            android:id="@+id/b2"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="100dp"/>
+
+
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

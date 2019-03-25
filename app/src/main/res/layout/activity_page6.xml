@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/l1"
+    android:orientation="vertical"
+    tools:context=".page6">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13.આપે મોબાઇલ નંબર રજીસ્ટર કરાયેલ છે? "
+                android:id="@+id/r13tv1"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                />
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/shape"
+                android:layout_marginTop="10dp"
+                android:id="@+id/r13rg"
+                android:layout_marginBottom="5dp"
+
+                >
+
+                <RadioButton
+                    android:textColor="#000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="હા"
+                    android:id="@+id/r13rb11"
+                    android:layout_marginLeft="30dp"
+                    android:buttonTint="@color/colorPrimary"
+
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="170dp"
+                    android:text=" ના "
+                    android:buttonTint="@color/colorPrimary"
+                    android:id="@+id/r13rb12"
+
+
+                    />
+            </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13-1. MGVCLનાં દ્વારા મોબાઇલ નંબર રજીસ્ટર કરાવવા થી વધું સગવડતા મળી રહે તે અંગેની માહિતી છે? "
+        android:id="@+id/r13tv"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:id="@+id/r13rg1"
+        android:layout_marginBottom="5dp"
+
+        >
+
+        <RadioButton
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="હા"
+            android:id="@+id/r13rb1"
+            android:layout_marginLeft="30dp"
+            android:buttonTint="@color/colorPrimary"
+
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginLeft="170dp"
+            android:text=" ના "
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/r13rb2"
+
+
+            />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14. છેલ્લા ત્રણ માસ માં આપ કેટલીવાર પૂર્વ જાહેરાત વગર નો /કસમય નો વિદ્યુત કાપ અનુભવ્ચો છે."
+        android:id="@+id/r14tv"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:id="@+id/r14rg"
+        android:layout_marginBottom="5dp"
+
+        >
+
+        <RadioButton
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="એક પણ વાર નહિ  "
+            android:id="@+id/r14rb1"
+            android:layout_marginLeft="30dp"
+
+            android:buttonTint="@color/colorPrimary"
+
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:layout_marginLeft="30dp"
+            android:text=" નહીવત "
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/r14rb2"
+
+            />
+        <RadioButton
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="કોઈકવાર "
+            android:id="@+id/r14rb3"
+            android:layout_marginLeft="30dp"
+            android:buttonTint="@color/colorPrimary"
+
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:layout_marginLeft="30dp"
+            android:text="વારંવાર "
+            android:id="@+id/r14rb4"
+
+            android:buttonTint="@color/colorPrimary"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/rB11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:text="@string/previous"
+        android:textColor="#151719"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="30dp"
+        />
+    <Button
+        android:id="@+id/rB12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:text="@string/next"
+        android:layout_marginBottom="100dp"
+        android:textColor="#151719"
+        android:layout_marginTop="-150dp"
+        android:layout_marginLeft="230dp"/>
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/l1"
+
+    tools:context=".page1">
+    <ScrollView  android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. ઉપભોક્તા  નામ "
+                android:id="@+id/ra"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/raet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/ra"
+                android:background="@drawable/shape"
+                android:ems="20"
+                android:inputType="text"
+                android:singleLine="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. ફોન નં."
+                android:layout_below="@id/raet"
+                android:id="@+id/rb"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/rbet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/rb"
+                android:background="@drawable/shape"
+                android:ems="20"
+                android:maxLength="10"
+                android:inputType="phone"
+                android:singleLine="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. ગામ "
+                android:id="@+id/rc"
+                android:layout_below="@id/rbet"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/rcet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/rc"
+                android:background="@drawable/shape"
+                android:ems="20"
+                android:inputType="text"
+                android:singleLine="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. તાલુકો"
+
+                android:id="@+id/rd"
+
+                android:layout_below="@id/rcet"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/rdet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/rd"
+                android:background="@drawable/shape"
+                android:ems="20"
+                android:inputType="text"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/re"
+                android:text="5. જિલ્લા  "
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:layout_below="@id/rdet"
+                />
+
+            <EditText
+                android:id="@+id/reet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/re"
+                android:background="@drawable/shape"
+                android:ems="20"
+                android:inputType="text"
+                android:singleLine="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. ઘર માં રહેનાર વ્યક્તિ ની સંખ્યા:"
+                android:inputType="number"
+                android:id="@+id/rf"
+
+                android:layout_below="@id/reet"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/rfet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/rf"
+                android:maxLength="2"
+                android:background="@drawable/shape"
+                android:ems="20"
+                android:inputType="number"
+                android:singleLine="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7. બીલ ઉપર જોઇ ને MGVCL કન્ઝયુમર​ નંબર લખવુ "
+                android:id="@+id/rg"
+                android:layout_below="@id/rfet"
+                android:inputType="number"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/rget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rg"
+                android:background="@drawable/shape"
+                android:ems="20"
+                android:hint="enter 11 digit  number"
+                android:inputType="number"
+                android:maxLength="11"
+                android:singleLine="true" />
+            <Button
+                android:id="@+id/rB1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"
+                android:text="@string/previous"
+                android:textColor="#151719"
+                android:layout_below="@id/rget"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="100dp"
+                />
+            <Button
+                android:id="@+id/rB2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/b1"
+                android:background="@drawable/shape"
+                android:text="@string/next"
+                android:textColor="#151719"
+                android:layout_marginTop="50dp"
+                android:layout_below="@id/rget"
+                android:layout_marginLeft="230dp"
+                android:layout_marginBottom="100dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

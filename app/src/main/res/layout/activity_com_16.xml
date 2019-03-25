@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/l1"
+
+    tools:context="com.example.sushant.parden.MainActivity">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/c44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/strc44"
+            android:textSize="15dp" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/c44"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:layout_marginTop="10dp"
+            android:id="@+id/rg44"
+            android:layout_marginBottom="5dp"
+
+            >
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stra44_1"
+                android:id="@+id/rb44_1"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:id="@+id/rb44_2"
+                android:layout_toRightOf="@id/rb4"
+                android:layout_marginLeft="30dp"
+                android:text="@string/stra44_2"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stra44_3"
+                android:id="@+id/rb44_3"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:id="@+id/rb44_4"
+                android:layout_marginLeft="30dp"
+                android:text="@string/stra44_4"
+
+                android:buttonTint="@color/colorPrimary"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb44_5"
+                android:textColor="#000000"
+                android:layout_marginLeft="30dp"
+                android:text="@string/stra44_5"
+
+                android:buttonTint="@color/colorPrimary"
+                />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/c45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="290dp"
+            android:text="@string/strc45"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edt45_1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="320dp"
+            android:background="@drawable/shape"
+            android:singleLine="true"
+            android:hint="@string/stra45_1"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edt45_2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="370dp"
+            android:background="@drawable/shape"
+            android:singleLine="true"
+            android:hint="@string/stra45_2"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp" />
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shape"
+            android:layout_below="@id/edt45_2"
+            android:layout_marginBottom="100dp"
+            android:hint="@string/previous"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/b1"
+            android:background="@drawable/shape"
+            android:hint="@string/next"
+            android:layout_below="@id/edt45_2"
+            android:layout_marginBottom="100dp"
+            android:id="@+id/b2"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="100dp"/>
+
+</RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
