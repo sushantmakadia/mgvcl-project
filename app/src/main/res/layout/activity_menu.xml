@@ -284,28 +284,19 @@
                 android:text="@string/m8_12"
                 android:textColor="@color/colorPrimary" />
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="100dp">
-        <Button
-            android:id="@+id/b4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
 
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="@drawable/shape"
-            android:text="@string/previous"
+            android:text="@string/next"
             android:textColor="@color/colorPrimary" />
-            <Button
-                android:id="@+id/b2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="150dp"
-                android:background="@drawable/shape"
-                android:text="@string/next"
-                android:textColor="@color/colorPrimary" />
 
 
     </LinearLayout>

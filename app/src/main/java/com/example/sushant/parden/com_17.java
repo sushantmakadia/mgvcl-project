@@ -77,6 +77,13 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
+import static com.example.sushant.parden.MainActivity.IMEI_Number_Holder;
+import static com.example.sushant.parden.area_comm.CIRCLE_C;
+import static com.example.sushant.parden.area_comm.DIV_C;
+import static com.example.sushant.parden.area_comm.SUB_C;
+import static com.example.sushant.parden.area_urban.CIRCLE_U;
+import static com.example.sushant.parden.area_urban.DIV_U;
+import static com.example.sushant.parden.area_urban.SUB_U;
 import static com.example.sushant.parden.com.q1;
 import static com.example.sushant.parden.com.q10;
 import static com.example.sushant.parden.com.q2;
@@ -119,7 +126,6 @@ import static com.example.sushant.parden.com_2.s7;
 import static com.example.sushant.parden.com_3.s10;
 import static com.example.sushant.parden.com_3.s8;
 import static com.example.sushant.parden.com_3.s9;
-import static com.example.sushant.parden.com_3.s9_1;
 import static com.example.sushant.parden.com_4.s11;
 import static com.example.sushant.parden.com_4.s12;
 import static com.example.sushant.parden.com_5.s13;
@@ -241,13 +247,13 @@ public class com_17 extends AppCompatActivity {
                 }
             }
         });
-        b1 = (Button) findViewById(R.id.b1);
+       /* b1 = (Button) findViewById(R.id.b1);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 pre();
             }
-        });
+        });*/
     }
     private void init() {
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
@@ -449,27 +455,27 @@ public class com_17 extends AppCompatActivity {
             obj.put("l7",s7);
             obj.put("l8",s8);
             obj.put("l9a",s9);
-            obj.put("l9b",s9_1);
+            obj.put("l9b", com_3.s9_1);
             obj.put("l10",s10);
             obj.put("l11",s11);
             obj.put("l12",s12);
             obj.put("l13",s13);
-            obj.put("l14",s14.replaceAll("/",""));
+            obj.put("l14",s14);
             obj.put("l15",s15);
             obj.put("l16",s16);
-            obj.put("l17",s17.replaceAll("/",""));
+            obj.put("l17",s17);
             obj.put("l18",s18);
             obj.put("l19",s19);
-            obj.put("l20",s20.replaceAll("null"," "));
+            obj.put("l20",s20);
             obj.put("l21",s21);
             obj.put("l22",s22);
-            obj.put("l23",s23.replaceAll("/",""));
+            obj.put("l23",s23);
             obj.put("l24",s24);
-            obj.put("l25",s25.replaceAll("/",""));
+            obj.put("l25",s25);
             obj.put("l26",s26);
             obj.put("l27",s27);
             obj.put("l28",s28);
-            obj.put("l29",s29.replaceAll("null ;",""));
+            obj.put("l29",s29);
             obj.put("l30",s30);
             obj.put("l31",s31);
             obj.put("l32",s32);
@@ -492,6 +498,10 @@ public class com_17 extends AppCompatActivity {
             obj.put("m",date);
             obj.put("n",location);
             obj.put("o","");
+            obj.put("imei",IMEI_Number_Holder);
+            obj.put("circle",CIRCLE_C);
+            obj.put("div",DIV_C);
+            obj.put("subdiv",SUB_C);
             jsondata=obj.toString();
             Log.v("tag",obj.toString());
         } catch(JSONException e){

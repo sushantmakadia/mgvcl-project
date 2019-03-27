@@ -53,7 +53,7 @@ public class urb1 extends AppCompatActivity {
                 s4=rb3.getText().toString();
             }
         }) ;
-        b1=(Button)findViewById(R.id.b11);
+      b1=(Button)findViewById(R.id.b1);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -84,13 +84,13 @@ public class urb1 extends AppCompatActivity {
                 }
             }
         });
-        b2=(Button)findViewById(R.id.b2);
-        b2.setOnClickListener(new View.OnClickListener() {
+        //b2=(Button)findViewById(R.id.b2);
+       /* b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(),menu.class);
                 startActivity(i);
             }
-        });
+        });*/
     }
 }

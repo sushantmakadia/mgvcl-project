@@ -84,12 +84,7 @@ public class com_6 extends AppCompatActivity {
             }
         });
         b1=(Button)findViewById(R.id.b1);
-        b1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                pre();
-            }
-        });
+        //b1.setOnClickListener(new View.OnClickListener() {             @Override             public void onClick(View view) {                 pre();             }         });
         b2=(Button)findViewById(R.id.b2);
         b2.setOnClickListener(new View.OnClickListener() {
             @Override

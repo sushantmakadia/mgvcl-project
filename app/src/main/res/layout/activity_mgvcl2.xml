@@ -257,25 +257,13 @@
 
 
         <Button
-            android:id="@+id/ab3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/shape"
-            android:text="@string/previous"
-            android:textColor="#000"
-            android:layout_below="@id/arg7"
-            android:layout_marginTop="50dp"
-            android:layout_marginLeft="30dp"
-            />
-
-        <Button
             android:id="@+id/ac2"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="100dp"
+
             android:layout_below="@id/arg7"
             android:layout_marginTop="50dp"
-            android:layout_toRightOf="@id/ab3"
+
             android:background="@drawable/shape"
             android:text="@string/next"
             android:textColor="#000" />

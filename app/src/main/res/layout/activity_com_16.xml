@@ -120,19 +120,9 @@
             android:hint="@string/stra45_2"
             android:textColor="@color/colorPrimary"
             android:textSize="15dp" />
+
         <Button
-            android:id="@+id/b1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="50dp"
-            android:background="@drawable/shape"
-            android:layout_below="@id/edt45_2"
-            android:layout_marginBottom="100dp"
-            android:hint="@string/previous"
-            />
-        <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/b1"
             android:background="@drawable/shape"
@@ -141,7 +131,7 @@
             android:layout_marginBottom="100dp"
             android:id="@+id/b2"
             android:layout_marginTop="50dp"
-            android:layout_marginLeft="100dp"/>
+           />
 
 </RelativeLayout>
     </ScrollView>

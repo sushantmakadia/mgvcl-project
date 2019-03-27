@@ -55,13 +55,13 @@ TextView t1;
 
             }
         });
-        b2=(Button)findViewById(R.id.rB9);
-        b2.setOnClickListener(new View.OnClickListener() {
+        //b2=(Button)findViewById(R.id.rB9);
+        /*b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 prev();
             }
-        });
+        });*/
         r1=findViewById(R.id.r10rg);
         r2=findViewById(R.id.r11rg);
         r3=findViewById(R.id.r12rg);

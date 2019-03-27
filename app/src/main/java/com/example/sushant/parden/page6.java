@@ -53,13 +53,13 @@ LinearLayout l1;
 
             }
         });
-        b2=(Button)findViewById(R.id.rB11);
-        b2.setOnClickListener(new View.OnClickListener() {
+        //b2=(Button)findViewById(R.id.rB11);
+       /* b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 prev();
             }
-        });
+        });*/
         r1=findViewById(R.id.r13rg);
         r2=findViewById(R.id.r13rg1);
         r3=findViewById(R.id.r14rg);

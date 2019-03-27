@@ -54,7 +54,7 @@ public int x,y,flag=0;
         sc=new String();
         c=new String[13];
         b1=(Button)findViewById(R.id.b2);
-        b4=(Button)findViewById(R.id.b4);
+       // b4=(Button)findViewById(R.id.b4);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -89,13 +89,13 @@ public int x,y,flag=0;
                 }
             }
         });
-        b4.setOnClickListener(new View.OnClickListener() {
+       /* b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(menu.this,MainActivity.class);
+                Intent intent= new Intent(menu.this,urb1.class);
                 startActivities(new Intent[]{intent});
             }
-        });
+        });*/
 
 }
 }

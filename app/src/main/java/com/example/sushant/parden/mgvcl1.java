@@ -48,7 +48,7 @@ int temp1=-2,temp2=-2,temp3=-3,temp4=-2;
         arg2=findViewById(R.id.arg2);
         arg3=findViewById(R.id.aarg2);
         arg4=findViewById(R.id.arg3);
-        ab1=findViewById(R.id.ab1);
+
         ac1=findViewById(R.id.ac1);
 
 
@@ -105,13 +105,13 @@ int temp1=-2,temp2=-2,temp3=-3,temp4=-2;
             }
         });
 
-        ab1.setOnClickListener(new View.OnClickListener() {
+     /*   ab1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(mgvcl1.this, mgvcl12.class);
                 startActivity(intent);
                // Toast.makeText(MainActivity.this,"radio text is:- " + rs1+rs2+rs3+rs4,Toast.LENGTH_LONG).show();
             }
-        });
+        });*/
     }
 }

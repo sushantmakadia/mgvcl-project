@@ -243,28 +243,13 @@
         </RadioGroup>
 
 
-
-
-        <Button
-            android:id="@+id/ab7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_below="@id/arg26"
-            android:layout_marginTop="50dp"
-            android:background="@drawable/shape"
-            android:hint="countinue"
-            android:text="@string/previous"
-            android:textColor="#000" />
-
         <Button
             android:id="@+id/ac7"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="100dp"
+
             android:layout_below="@id/arg26"
             android:layout_marginTop="50dp"
-            android:layout_toRightOf="@id/ab7"
             android:background="@drawable/shape"
             android:hint="countinue"
             android:text="@string/next"

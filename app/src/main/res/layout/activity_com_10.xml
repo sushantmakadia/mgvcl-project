@@ -275,19 +275,9 @@
                 android:layout_marginLeft="130dp"
                 />
         </RadioGroup>
+
         <Button
-            android:id="@+id/b1"
-            android:layout_width="wrap_content"
-            android:layout_below="@id/rg29"
-            android:layout_height="wrap_content"
-            android:background="@drawable/shape"
-            android:layout_marginBottom="100dp"
-            android:hint="@string/previous"
-            android:layout_marginTop="50dp"
-            android:layout_marginLeft="30dp"
-            />
-        <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/b1"
             android:layout_below="@+id/rg29"
@@ -296,7 +286,7 @@
             android:id="@+id/b2"
             android:layout_marginBottom="100dp"
             android:layout_marginTop="50dp"
-            android:layout_marginLeft="100dp"/>
+           />
 
     </RelativeLayout>
     </ScrollView>

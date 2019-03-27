@@ -48,13 +48,13 @@ public class page4 extends AppCompatActivity {
 
             }
         });
-        b2 = (Button) findViewById(R.id.rB7);
-        b2.setOnClickListener(new View.OnClickListener() {
+        //b2 = (Button) findViewById(R.id.rB7);
+       /* b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 prev();
             }
-        });
+        });*/
         r1=findViewById(R.id.r8rg);
         r2=findViewById(R.id.r9rg);
         r1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {

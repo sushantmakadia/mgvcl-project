@@ -35,7 +35,7 @@ public class com_1 extends AppCompatActivity {
         animationDrawable.setEnterFadeDuration(2000);
         animationDrawable.setExitFadeDuration(4000);
         animationDrawable.start();
-        b1=(Button)findViewById(R.id.b1);
+        //b1=(Button)findViewById(R.id.b1);
         e1=(EditText)findViewById(R.id.edt1);
 
         rg1=findViewById(R.id.rg3);
@@ -66,12 +66,7 @@ public class com_1 extends AppCompatActivity {
             }
         });
 
-        b1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                pre();
-            }
-        });
+        //b1.setOnClickListener(new View.OnClickListener() {             @Override             public void onClick(View view) {                 pre();             }         });
         b2=(Button)findViewById(R.id.b2);
         b2.setOnClickListener(new View.OnClickListener() {
             @Override

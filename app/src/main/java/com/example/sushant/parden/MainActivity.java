@@ -1,13 +1,18 @@
 package com.example.sushant.parden;
 
+import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.content.pm.PackageManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.telephony.TelephonyManager;
 import android.text.Html;
 import android.view.View;
 import android.widget.Button;
@@ -18,6 +23,8 @@ import static android.app.AlertDialog.THEME_HOLO_LIGHT;
 
 public class MainActivity extends AppCompatActivity {
     Button b1,b2,b3,b4,b5;
+    static String IMEI_Number_Holder;
+    TelephonyManager telephonyManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +32,18 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_PHONE_STATE) != PackageManager.PERMISSION_GRANTED) {
+            if (ActivityCompat.shouldShowRequestPermissionRationale(MainActivity.this, Manifest.permission.READ_PHONE_STATE)) {
+                ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.READ_PHONE_STATE}, 1);
+            } else {
+                ActivityCompat.requestPermissions(MainActivity.this, new String[]
+                        {Manifest.permission.READ_PHONE_STATE}, 1);
+            }
+        } else {
+
+        }
+        telephonyManager = (TelephonyManager) this.getSystemService(Context.TELEPHONY_SERVICE);
+        IMEI_Number_Holder = telephonyManager.getDeviceId();
             ConnectivityManager conMgr = (ConnectivityManager) getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);
             NetworkInfo netInfo = conMgr.getActiveNetworkInfo();
 
@@ -104,21 +123,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void next3() {
-        Intent intent=new Intent(this, com.class);
+        Intent intent=new Intent(this, area_comm.class);
         startActivities(new Intent[]{intent});
     }
 
     private void next2() {
-        Intent intent=new Intent(this, mgvcl12.class);
+        Intent intent=new Intent(this, area_agri.class);
         startActivities(new Intent[]{intent});
     }
 
     private void next() {
-        Intent intent=new Intent(this, page1.class);
+        Intent intent=new Intent(this, area_rural.class);
         startActivities(new Intent[]{intent});
     }
     private void next1() {
-        Intent intent=new Intent(MainActivity.this, menu.class);
+        Intent intent=new Intent(MainActivity.this, area_urban.class);
         startActivities(new Intent[]{intent});
     }
 

@@ -192,23 +192,11 @@
             </RadioGroup>
 
             <Button
-                android:id="@+id/rB5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/r7rg"
-                android:layout_marginLeft="30dp"
-                android:layout_marginTop="50dp"
-                android:background="@drawable/shape"
-                android:text="@string/previous"
-                android:textColor="#151719" />
-
-            <Button
                 android:id="@+id/rB6"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/r7rg"
-                android:layout_marginLeft="230dp"
-                android:layout_marginTop="-50dp"
+                android:layout_marginTop="50dp"
                 android:background="@drawable/shape"
                 android:text="@string/next"
                 android:textColor="#151719" />

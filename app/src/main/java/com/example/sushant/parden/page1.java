@@ -1,10 +1,16 @@
 package com.example.sushant.parden;
 
+import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.content.pm.PackageManager;
 import android.graphics.drawable.AnimationDrawable;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.telephony.TelephonyManager;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -13,6 +19,7 @@ import android.widget.Toast;
 
 public class page1 extends AppCompatActivity {
     Button b1,b2;
+
     EditText e1,e2,e3,e4,e5,e6,e7;
 public static String s1,s2,s3,s4,s5,s6,s7;
 RelativeLayout l1;
@@ -24,8 +31,11 @@ int x=0;
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page1);
+
+
+
         b1=(Button)findViewById(R.id.rB2);
-        b2=(Button)findViewById(R.id.rB1);
+
         e1=(EditText)findViewById(R.id.raet);
         e2=(EditText)findViewById(R.id.rbet);
         e3=(EditText)findViewById(R.id.rcet);
@@ -87,16 +97,7 @@ int x=0;
                 }
             }
         });
-        b2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(page1.this, MainActivity.class);
-                startActivities(new Intent[]{intent});
-
-            }
-        });
     }
-
     private void next() {
 
             Intent intent = new Intent(this, page2.class);

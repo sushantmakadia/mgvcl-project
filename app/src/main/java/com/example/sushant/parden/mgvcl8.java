@@ -44,7 +44,7 @@ int x=0,temp1=-2,temp2=-2,temp3=-2;
         arg24=findViewById(R.id.arg28);
         arg25=findViewById(R.id.arg29);
 
-        ab19=findViewById(R.id.ab8);
+
         ac19=findViewById(R.id.ac8);
 
         arg23.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
@@ -94,13 +94,13 @@ int x=0,temp1=-2,temp2=-2,temp3=-2;
             }
         });
 
-        ab19.setOnClickListener(new View.OnClickListener() {
+      /*  ab19.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(mgvcl8.this,mgvcl7.class);
                 startActivity(intent);
             }
-        });
+        });*/
 
 
 

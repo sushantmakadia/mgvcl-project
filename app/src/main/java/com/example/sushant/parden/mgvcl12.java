@@ -3,10 +3,14 @@
 
 package com.example.sushant.parden;
 
+import android.Manifest;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.content.pm.PackageManager;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
@@ -42,6 +46,7 @@ public class mgvcl12 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mgvcl12);
         mydb =new DatabaseHelper(this);
+
 
         l1= findViewById(R.id.l1);
         AnimationDrawable animationDrawable=(AnimationDrawable)l1.getBackground();
@@ -101,7 +106,7 @@ public class mgvcl12 extends AppCompatActivity {
         ed8=findViewById(R.id.aata10);
         ed9=findViewById(R.id.aata11);
         ed9.setSelection(0);
-        ba2=findViewById(R.id.aab11);
+
         ca2=findViewById(R.id.aac11);
 
 
@@ -184,12 +189,12 @@ public class mgvcl12 extends AppCompatActivity {
             }
         });
 
-        ba2.setOnClickListener(new View.OnClickListener() {
+      /*  ba2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                back();
             }
-        });
+        });*/
 
     }
 

@@ -142,14 +142,14 @@ public class com extends AppCompatActivity {
                 }
             }
         });
-        b1.setOnClickListener(new View.OnClickListener() {
+     /*   b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(com.this, MainActivity.class);
                 startActivities(new Intent[]{intent});
 
             }
-        });
+        });*/
 
     }
 

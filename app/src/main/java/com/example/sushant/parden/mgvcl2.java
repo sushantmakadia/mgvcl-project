@@ -21,7 +21,7 @@ int temp1=-2,temp2=-2,temp3=-2,temp4=-2,x=0;
     private RadioGroup arg1,rg2,rg3,rg4;
     private RadioButton ard11,rb2,rb3,rb4;
 
-    private Button ab12,ac12;
+    private Button ac12;
 
     public static String rs01,rs02,rs03,rs03_1;
 
@@ -44,7 +44,7 @@ int temp1=-2,temp2=-2,temp3=-2,temp4=-2,x=0;
         rg2=findViewById(R.id.arg5);
         rg3=findViewById(R.id.arg6);
         rg4=findViewById(R.id.arg7);
-        ab12=findViewById(R.id.ab3);
+
         ac12=findViewById(R.id.ac2);
 
         arg1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
@@ -160,7 +160,7 @@ int temp1=-2,temp2=-2,temp3=-2,temp4=-2,x=0;
                 }
             }
         });
-        ab12.setOnClickListener(new View.OnClickListener() {
+       /* ab12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -171,6 +171,6 @@ int temp1=-2,temp2=-2,temp3=-2,temp4=-2,x=0;
                 // for test
                // Toast.makeText(mgvcl2.this,rs1+rs2+rs3,Toast.LENGTH_LONG).show();
             }
-        });
+        });*/
     }
 }

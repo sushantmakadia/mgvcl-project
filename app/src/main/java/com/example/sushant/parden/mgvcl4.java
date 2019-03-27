@@ -44,7 +44,6 @@ RelativeLayout l1;
         arg23=findViewById(R.id.arg16);
         arg33=findViewById(R.id.arg17);
 
-        ab14=findViewById(R.id.ab4);
         ac15=findViewById(R.id.ac4);
 
         arg13.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
@@ -98,7 +97,7 @@ RelativeLayout l1;
             }
         });
 
-        ab14.setOnClickListener(new View.OnClickListener() {
+      /*  ab14.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -106,7 +105,7 @@ RelativeLayout l1;
                 startActivity(intent4);
 
             }
-        });
+        });*/
 
 
 

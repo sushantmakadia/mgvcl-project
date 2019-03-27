@@ -86,12 +86,7 @@ public class com_2 extends AppCompatActivity {
                 temp3=1;
             }
         });
-        b1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                pre();
-            }
-        });
+        //b1.setOnClickListener(new View.OnClickListener() {             @Override             public void onClick(View view) {                 pre();             }         });
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

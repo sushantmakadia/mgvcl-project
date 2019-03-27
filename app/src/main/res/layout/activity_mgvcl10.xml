@@ -140,29 +140,15 @@
             android:textColor="#000" />
 
 
-
-        <Button
-            android:id="@+id/ab10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="41dp"
-            android:layout_below="@+id/ata1"
-            android:background="@drawable/shape"
-
-            android:text="@string/previous"
-            android:textColor="#000" />
-
         <Button
             android:id="@+id/ac10"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="100dp"
+
             android:layout_below="@+id/ata1"
             android:layout_marginTop="41dp"
 
 
-            android:layout_toRightOf="@id/ab10"
             android:background="@drawable/shape"
 
             android:text="@string/next"

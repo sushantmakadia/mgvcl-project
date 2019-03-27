@@ -62,6 +62,13 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+import static com.example.sushant.parden.MainActivity.IMEI_Number_Holder;
+import static com.example.sushant.parden.area_agri.CIRCLE_A;
+import static com.example.sushant.parden.area_agri.DIV_A;
+import static com.example.sushant.parden.area_agri.SUB_A;
+import static com.example.sushant.parden.area_urban.CIRCLE_U;
+import static com.example.sushant.parden.area_urban.DIV_U;
+import static com.example.sushant.parden.area_urban.SUB_U;
 import static com.example.sushant.parden.mgvcl1.rs05;
 import static com.example.sushant.parden.mgvcl1.rs1;
 import static com.example.sushant.parden.mgvcl1.rs2;
@@ -113,7 +120,7 @@ public class mgvcl11 extends AppCompatActivity {
     private Button ab23,ac23;
     RelativeLayout l1;
     RatingBar ed2;
-int x=0;
+    int x=0;
     public static String rs30,date;
     public String jsondata;
     ProgressDialog progressDialog ;
@@ -160,7 +167,7 @@ int x=0;
 
         ed2=findViewById(R.id.ata2);
 
-        ab23=findViewById(R.id.ab11);
+       // ab23=findViewById(R.id.ab11);
         ac23=findViewById(R.id.ac11);
         mydb =new DatabaseHelper(this);
 
@@ -190,13 +197,13 @@ int x=0;
         });
 
 
-        ab23.setOnClickListener(new View.OnClickListener() {
+       /* ab23.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(mgvcl11.this,mgvcl10.class);
-               startActivity(intent);
+                startActivity(intent);
             }
-        });
+        });*/
     }
     private void init() {
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
@@ -405,8 +412,8 @@ int x=0;
             obj.put("i5",rs4);
             obj.put("i6", rs01);
             obj.put("i7a", rs02);
-            obj.put("i7b", rs03.replaceAll("/",""));
-            obj.put("i7c", rs03_1.replaceAll("/",""));
+            obj.put("i7b", rs03);
+            obj.put("i7c", rs03_1);
             obj.put("i8", rs11);
             obj.put("i9", rs21);
             obj.put("i10", rs31);
@@ -435,6 +442,10 @@ int x=0;
             obj.put("j",date);
             obj.put("k",location);
             obj.put("l","");
+            obj.put("imei",IMEI_Number_Holder);
+            obj.put("circle",CIRCLE_A);
+            obj.put("div",DIV_A);
+            obj.put("subdiv",SUB_A);
             Log.v("tag",obj.toString());
             jsondata=obj.toString();
             Log.d("tag", obj.toString());

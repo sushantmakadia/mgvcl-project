@@ -173,21 +173,10 @@
                 android:inputType="number"
                 android:maxLength="11"
                 android:singleLine="true" />
-            <Button
-                android:id="@+id/rB1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/shape"
-                android:text="@string/previous"
-                android:textColor="#151719"
-                android:layout_below="@id/rget"
-                android:layout_marginTop="50dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginBottom="100dp"
-                />
+
             <Button
                 android:id="@+id/rB2"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@id/b1"
                 android:background="@drawable/shape"
@@ -195,8 +184,7 @@
                 android:textColor="#151719"
                 android:layout_marginTop="50dp"
                 android:layout_below="@id/rget"
-                android:layout_marginLeft="230dp"
-                android:layout_marginBottom="100dp"/>
+              />
         </RelativeLayout>
     </ScrollView>
 

@@ -45,7 +45,7 @@ int x=0,temp1=-2,temp2=-2,temp3=-2;
         arg15=findViewById(R.id.arg19);
         arg16=findViewById(R.id.arg20);
 
-        ab16=findViewById(R.id.ab5);
+
         ac16=findViewById(R.id.ac5);
 
 
@@ -95,7 +95,7 @@ int x=0,temp1=-2,temp2=-2,temp3=-2;
                 }
             }
         });
-        ab16.setOnClickListener(new View.OnClickListener() {
+    /*    ab16.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -106,7 +106,7 @@ int x=0,temp1=-2,temp2=-2,temp3=-2;
             }
         });
 
-
+*/
 
     }
 }

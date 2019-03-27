@@ -140,31 +140,17 @@
             android:textColor="#000000"
             android:layout_below="@+id/a7m4"
             android:background="@drawable/shape"/>
-
         <Button
-            android:id="@+id/b2"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="50dp"
-            android:layout_below="@id/a7m5"
-            android:layout_marginBottom="100dp"
             android:background="@drawable/shape"
-            android:text="@string/previous"
-            android:textColor="@color/colorPrimary" />
-
-        <Button
             android:id="@+id/b1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="140dp"
-            android:layout_marginTop="50dp"
-            android:layout_below="@id/a7m5"
             android:layout_marginBottom="100dp"
-            android:layout_toRightOf="@id/b2"
-            android:background="@drawable/shape"
+            android:layout_below="@id/a7m5"
             android:text="@string/next"
-            android:textColor="@color/colorPrimary" />
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="50dp"
+            />
     </RelativeLayout>
     </ScrollView>
 </RelativeLayout>

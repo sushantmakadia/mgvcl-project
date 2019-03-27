@@ -31,19 +31,17 @@ public class page2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page2);
         b1 = (Button) findViewById(R.id.rB4);
-
-        b2 = (Button) findViewById(R.id.rB3);
         l2=findViewById(R.id.l2);
         AnimationDrawable animationDrawable=(AnimationDrawable)l2.getBackground();
         animationDrawable.setEnterFadeDuration(2000);
         animationDrawable.setExitFadeDuration(4000);
         animationDrawable.start();
-        b2.setOnClickListener(new View.OnClickListener() {
+       /* b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 prev();
             }
-        });
+        });*/
         e1 = (EditText) findViewById(R.id.r1et);
         e2 = (EditText) findViewById(R.id.r3et);
         r1 = findViewById(R.id.r2rg);
@@ -100,12 +98,6 @@ public class page2 extends AppCompatActivity {
 
                             }
                         });
-
-
-
-
-
-
     }
 
 

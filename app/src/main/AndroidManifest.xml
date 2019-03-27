@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.sushant.parden">
-    <uses-permission android:name="android.permission.INTERNET"/>
 
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-
-    <uses-permission android:name="android.permission.CAMERA"/>
-
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -17,10 +15,13 @@
         android:label="MGVCL_CSS"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-
         android:theme="@style/AppTheme">
-        <activity android:name=".imgupload"/>
-        <activity android:name=".com_2"/>
+        <activity android:name=".area_agri"></activity>
+        <activity android:name=".area_comm" />
+        <activity android:name=".area_urban" />
+        <activity android:name=".area_rural" />
+        <activity android:name=".imgupload" />
+        <activity android:name=".com_2" />
         <activity android:name=".com_1" />
         <activity android:name=".com" />
         <activity android:name=".com_17" />
@@ -47,9 +48,9 @@
         <activity android:name=".mgvcl5" />
         <activity android:name=".mgvcl4" />
         <activity android:name=".mgvcl3" />
-        <activity android:name=".mgvcl2"/>
-        <activity android:name=".mgvcl12"/>
-        <activity android:name=".mgvcl1"/>
+        <activity android:name=".mgvcl2" />
+        <activity android:name=".mgvcl12" />
+        <activity android:name=".mgvcl1" />
         <activity android:name=".menu" />
         <activity android:name=".urb18" />
         <activity android:name=".urb17" />
@@ -81,14 +82,14 @@
         <activity android:name=".page3" />
         <activity android:name=".page2" />
         <activity android:name=".page1" />
-        <activity android:name=".syncActivity"/>
+        <activity android:name=".syncActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
-
 
 </manifest>

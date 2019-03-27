@@ -229,29 +229,15 @@
         </RadioGroup>
 
 
-
-
-        <Button
-            android:id="@+id/ab8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="50dp"
-            android:layout_below="@+id/arg29"
-            android:background="@drawable/shape"
-            android:hint="countinue"
-            android:text="@string/previous"
-            android:textColor="#000" />
-
         <Button
             android:id="@+id/ac8"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="100dp"
+
             android:layout_below="@+id/arg29"
             android:layout_marginTop="50dp"
 
-            android:layout_toRightOf="@id/ab8"
+
             android:background="@drawable/shape"
             android:hint="countinue"
             android:text="@string/next"

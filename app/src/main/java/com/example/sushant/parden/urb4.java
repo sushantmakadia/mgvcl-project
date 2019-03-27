@@ -107,13 +107,13 @@ public class urb4 extends AppCompatActivity {
                 }
             }
         });
-        b2 = (Button) findViewById(R.id.b2);
+     /*   b2 = (Button) findViewById(R.id.b2);
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(), urb3.class);
                 startActivity(i);
             }
-        });
+        });*/
     }
 }

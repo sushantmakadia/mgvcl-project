@@ -228,27 +228,17 @@
                 android:buttonTint="@color/colorPrimary"
                 />
         </RadioGroup>
-        <Button
-            android:id="@+id/rB21"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/shape"
-            android:text="@string/previous"
-            android:textColor="#151719"
-            android:layout_marginBottom="100dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="30dp"
-            />
+
         <Button
             android:id="@+id/rB22"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/shape"
             android:text="@string/next"
             android:textColor="#151719"
             android:layout_marginBottom="100dp"
-            android:layout_marginTop="-150dp"
-            android:layout_marginLeft="230dp"/>
+            android:layout_marginTop="50dp"
+            />
     </LinearLayout>
     </ScrollView>
 </LinearLayout>

@@ -67,6 +67,10 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
+import static com.example.sushant.parden.MainActivity.IMEI_Number_Holder;
+import static com.example.sushant.parden.area_urban.CIRCLE_U;
+import static com.example.sushant.parden.area_urban.DIV_U;
+import static com.example.sushant.parden.area_urban.SUB_U;
 import static com.example.sushant.parden.menu.sc;
 import static com.example.sushant.parden.menu.sm;
 import static com.example.sushant.parden.urb1.s1;
@@ -99,7 +103,6 @@ import static com.example.sushant.parden.urb2.s5;
 import static com.example.sushant.parden.urb2.s6;
 import static com.example.sushant.parden.urb2.s7;
 import static com.example.sushant.parden.urb3.s10;
-import static com.example.sushant.parden.urb3.s8;
 import static com.example.sushant.parden.urb3.s8_1;
 import static com.example.sushant.parden.urb3.s8_2;
 import static com.example.sushant.parden.urb3.s8_3;
@@ -126,7 +129,7 @@ import static com.example.sushant.parden.urb9.s28;
 import static com.example.sushant.parden.urb9.s29;
 
 public class urb18 extends AppCompatActivity {
-private Button b2,b1;
+    private Button b2,b1;
     DatabaseHelper mydb;
     public RadioGroup rg1;
     JSONObject obj;
@@ -215,7 +218,7 @@ private Button b2,b1;
                     Toast.makeText(urb18.this, "Answer field can't be empty", Toast.LENGTH_SHORT).show();
                 }    }
         });
-        b2=findViewById(R.id.b2);
+      /*  b2=findViewById(R.id.b2);
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -223,7 +226,7 @@ private Button b2,b1;
 
                 startActivities(new Intent[]{intent});
             }
-        });
+        });*/
     }
     private void init() {
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
@@ -427,11 +430,11 @@ private Button b2,b1;
             obj.put("h5", s5);
             obj.put("h6", s6);
             obj.put("h7", s7);
-            obj.put("h8", s8);
+            obj.put("h8", s8_1+'-' + s8_2+'-' + s8_3);
             obj.put("h9", s9);
             obj.put("h10", s10);
             obj.put("h11", s11);
-            obj.put("h12", s12.replaceAll("/",""));
+            obj.put("h12", s12);
             obj.put("h13", s13);
             obj.put("h14a", s14);
             obj.put("h14b", s14_1);
@@ -442,13 +445,13 @@ private Button b2,b1;
             obj.put("h19", s19);
             obj.put("h20", s20);
             obj.put("h21", s21);
-            obj.put("h22", s22.replaceAll("/",""));
+            obj.put("h22", s22);
             obj.put("h23", s23);
             obj.put("h24", s24);
             obj.put("h25", s25);
-            obj.put("h26", s26.replaceAll("/",""));
+            obj.put("h26", s26);
             obj.put("h27", s27);
-            obj.put("h28", s28.replaceAll("/",""));
+            obj.put("h28", s28);
             obj.put("h29", s29);
             obj.put("h30", s30);
             obj.put("h31", s31);
@@ -469,7 +472,7 @@ private Button b2,b1;
             obj.put("h46", s46);
             obj.put("h47", s47);
             obj.put("h48", s48);
-            obj.put("h49", s49.replaceAll("/",""));
+            obj.put("h49", s49);
             obj.put("h50", s50);
             obj.put("h51", s51);
             obj.put("h52", s52);
@@ -478,6 +481,10 @@ private Button b2,b1;
             obj.put("i", date);
             obj.put("j", location);
             obj.put("k","");
+            obj.put("imei",IMEI_Number_Holder);
+            obj.put("circle",CIRCLE_U);
+            obj.put("div",DIV_U);
+            obj.put("subdiv",SUB_U);
             jsondata=obj.toString();
             Log.v("tag", obj.toString());
         } catch (JSONException e) {

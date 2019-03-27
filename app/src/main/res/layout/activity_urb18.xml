@@ -112,32 +112,16 @@
             android:numStars="10"
             android:stepSize="1"
             android:isIndicator="false" />
-
         <Button
-            android:id="@+id/b2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/shape"
-            android:text="@string/previous"
-            android:layout_marginBottom="100dp"
-            android:textColor="@color/colorPrimary"
-            android:layout_marginTop="50dp"
-            android:layout_below="@id/uq54_1"
-            android:layout_marginLeft="30dp"
-            />
-        <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorPrimary"
-            android:layout_toRightOf="@id/b2"
             android:background="@drawable/shape"
             android:layout_marginBottom="100dp"
             android:id="@+id/b1"
             android:layout_marginTop="50dp"
             android:layout_below="@id/uq54_1"
             android:text="submit"
-
-            android:layout_marginLeft="140dp"
             />
     </RelativeLayout>
     </ScrollView>

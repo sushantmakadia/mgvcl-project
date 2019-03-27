@@ -63,6 +63,14 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+
+import static com.example.sushant.parden.MainActivity.IMEI_Number_Holder;
+import static com.example.sushant.parden.area_comm.CIRCLE_C;
+import static com.example.sushant.parden.area_comm.DIV_C;
+import static com.example.sushant.parden.area_comm.SUB_C;
+import static com.example.sushant.parden.area_rural.CIRCLE_R;
+import static com.example.sushant.parden.area_rural.DIV_R;
+import static com.example.sushant.parden.area_rural.SUB_R;
 import static com.example.sushant.parden.page1.s1;
 import static com.example.sushant.parden.page1.s2;
 import static com.example.sushant.parden.page1.s3;
@@ -156,7 +164,7 @@ public class page12 extends AppCompatActivity {
         e1=findViewById(R.id.r33et);
         e2=findViewById(R.id.r34et);
         b1=findViewById(R.id.rB23);
-        b2=findViewById(R.id.rB24);
+     //   b2=findViewById(R.id.rB24);
 
         r1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
@@ -197,13 +205,13 @@ public class page12 extends AppCompatActivity {
                 Toast.makeText(page12.this, "data stored", Toast.LENGTH_SHORT).show();
             }
         });
-        b2.setOnClickListener(new View.OnClickListener() {
+     /*   b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(page12.this,page11.class);
                 startActivities(new Intent[]{intent});
             }
-        });
+        });*/
 
     }
     private void init() {
@@ -441,6 +449,10 @@ public class page12 extends AppCompatActivity {
             d1.put("g33",sq34);
             d1.put("h",date);
             d1.put("i",location);
+            d1.put("imei",IMEI_Number_Holder);
+            d1.put("circle",CIRCLE_R);
+            d1.put("div",DIV_R);
+            d1.put("subdiv",SUB_R);
 
             d1.put("j","");
             jsondata=d1.toString();

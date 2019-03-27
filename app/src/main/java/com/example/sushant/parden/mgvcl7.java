@@ -44,7 +44,7 @@ int x=0,temp1=-2,temp2=-2,temp3=-2;
         arg21=findViewById(R.id.arg25);
         arg22=findViewById(R.id.arg26);
 
-        ab18=findViewById(R.id.ab7);
+
         ac18=findViewById(R.id.ac7);
 
         arg20.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
@@ -94,7 +94,7 @@ int x=0,temp1=-2,temp2=-2,temp3=-2;
         });
 
 
-        ab18.setOnClickListener(new View.OnClickListener() {
+       /* ab18.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(mgvcl7.this,mgvcl6.class);
@@ -103,7 +103,7 @@ int x=0,temp1=-2,temp2=-2,temp3=-2;
                 //for test
                // Toast.makeText(mgvcl7.this,rs20+rs21+rs22,Toast.LENGTH_LONG).show();
             }
-        });
+        });*/
 
 
 

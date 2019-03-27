@@ -49,13 +49,13 @@ public static String sq28,sq30,sq31;
                 }
             }
         });
-        b2=(Button)findViewById(R.id.rB21);
-        b2.setOnClickListener(new View.OnClickListener() {
+        //b2=(Button)findViewById(R.id.rB21);
+        /* b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 prev();
             }
-        });
+        });*/
         r1=findViewById(R.id.r29rg);
         r2=findViewById(R.id.r30rg);
         r3=findViewById(R.id.r31rg);

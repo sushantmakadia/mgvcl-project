@@ -51,13 +51,13 @@ public static String sq20,sq21,sq22,sq23;
                 else Toast.makeText(page9.this, "Answer Fields can't be empty.", Toast.LENGTH_SHORT).show();
             }
         });
-        b2=(Button)findViewById(R.id.rB17);
-        b2.setOnClickListener(new View.OnClickListener() {
+        //b2=(Button)findViewById(R.id.rB17);
+        /* b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 prev();
             }
-        });
+        });*/
         r1=findViewById(R.id.r20rg);
         r2=findViewById(R.id.r21rg);
         r3=findViewById(R.id.r22rg1);

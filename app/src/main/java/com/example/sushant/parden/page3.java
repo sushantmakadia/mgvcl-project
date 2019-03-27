@@ -44,7 +44,7 @@ public class page3 extends AppCompatActivity {
 
             }
         });
-        b2=(Button)findViewById(R.id.rB5);
+        //b2=(Button)findViewById(R.id.rB5);
         r1=findViewById(R.id.r5rg);
         r2=findViewById(R.id.r6rg);
         r3=findViewById(R.id.r7rg);
@@ -53,12 +53,12 @@ public class page3 extends AppCompatActivity {
         animationDrawable.setEnterFadeDuration(2000);
         animationDrawable.setExitFadeDuration(4000);
         animationDrawable.start();
-        b2.setOnClickListener(new View.OnClickListener() {
+      /*  b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 prev();
             }
-        });
+        });*/
         r1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
